@@ -1,0 +1,126 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    width: 100vw;
+    background-image: url("../images/backcover.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
+    background-origin: border-box;
+}
+
+/* ================================== */
+/* ========= Nav Bar ========= */
+/* ================================== */
+
+.main-div>nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    margin: 5vh 5vw;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40vw;
+}
+
+.nav-item {
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: bold;
+    color: #193161;
+}
+
+.signin-btn {
+    background-image: linear-gradient(to right, #965cf2, #ffadae);
+    color: white;
+    font-family: "Roboto";
+    padding: 5px 15px;
+    border: none;
+    border-radius: 30px;
+}
+
+/* ================================== */
+/* ========= Intro Section ========= */
+/* ================================== */
+
+.intro-section {
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+.left-section {
+    text-align: center;
+}
+
+.left-section>h1 {
+    width: 50vw;
+    font-family: "Roboto";
+    font-size: 5rem;
+    font-weight: bold;
+    color: #3e4794;
+    margin: 10vh 0 5vh;
+}
+
+.left-section>h4 {
+    max-width: 321px;
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: lighter;
+    color: #3e4794;
+    margin: 0 auto;
+    text-align: left;
+    text-overflow: ellipsis;
+    line-height: 20px;
+}
+
+.learn-more-btn {
+    margin: 5vh;
+    background-image: linear-gradient(to right, #965cf2, #ffadae);
+    color: white;
+    font-family: "Roboto";
+    font-size: 25px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 30px;
+
+}
+
+.imgs-div {
+    position: relative;
+}
+
+.imgs-div>img:last-child {
+    height: 80vh;
+}
+
+.vector-img {
+    position: absolute;
+    bottom: 20%;
+}
+
+.vector-dot {
+    position: absolute;
+    bottom: calc(20% + 85px);
+    left: 60px;
+}
+
+
+
+
+
+
+
